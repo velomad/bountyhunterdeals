@@ -15,6 +15,9 @@ import RandomClearance from "layout/RandomClearance";
 import TrandingElectronics from "layout/TrandingElectronics";
 import YourRandom from "layout/YourRandoms";
 import HomeBlogs from "layout/HomeBlogs";
+import TopPicks from "layout/TopPicks";
+import { KeenSlider } from "../../components";
+
 import Footer from "layout/Footer";
 
 // ==============================|| MAIN LAYOUT ||============================== //
@@ -35,6 +38,7 @@ const MainLayout = () => {
       <TrandingElectronics />
       <YourRandom />
       <HomeBlogs />
+      <TopPicks />
       <Footer />
       <div className={matchDownMd ? "block" : "hidden"}>
         <BottomNavigation />
