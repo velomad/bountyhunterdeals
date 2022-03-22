@@ -7,6 +7,10 @@ import { Box, CssBaseline, useMediaQuery } from "@mui/material";
 
 import BottomNavigation from "layout/BottomNavigation";
 import Header from "layout/Header";
+import HomeBannerSlider from "layout/HomeBannerSlider";
+import RecommendedFor from "layout/RecommendedFor";
+import MegaDeals from "layout/MegaDeals";
+import SuperDeals from "layout/SuperDeals";
 
 // ==============================|| MAIN LAYOUT ||============================== //
 
@@ -19,7 +23,10 @@ const MainLayout = () => {
       <CssBaseline />
 
       <Header />
-
+      <HomeBannerSlider />
+      <RecommendedFor />
+      <MegaDeals />
+      <SuperDeals />
       <div className={matchDownMd ? "block" : "hidden"}>
         <BottomNavigation />
       </div>
