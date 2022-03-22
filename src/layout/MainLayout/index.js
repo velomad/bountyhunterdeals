@@ -11,6 +11,11 @@ import HomeBannerSlider from "layout/HomeBannerSlider";
 import RecommendedFor from "layout/RecommendedFor";
 import MegaDeals from "layout/MegaDeals";
 import SuperDeals from "layout/SuperDeals";
+import RandomClearance from "layout/RandomClearance";
+import TrandingElectronics from "layout/TrandingElectronics";
+import YourRandom from "layout/YourRandoms";
+import HomeBlogs from "layout/HomeBlogs";
+import Footer from "layout/Footer";
 
 // ==============================|| MAIN LAYOUT ||============================== //
 
@@ -21,12 +26,16 @@ const MainLayout = () => {
   return (
     <Box>
       <CssBaseline />
-
       <Header />
       <HomeBannerSlider />
       <RecommendedFor />
       <MegaDeals />
       <SuperDeals />
+      <RandomClearance />
+      <TrandingElectronics />
+      <YourRandom />
+      <HomeBlogs />
+      <Footer />
       <div className={matchDownMd ? "block" : "hidden"}>
         <BottomNavigation />
       </div>
