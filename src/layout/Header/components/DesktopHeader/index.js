@@ -6,7 +6,7 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 const DesktopHeader = () => {
   return (
     <React.Fragment>
-      <div className="flex flex-row justify-between items-center space-x-4 p-2 bg-yellow">
+      <div className="flex flex-row justify-between items-center space-x-4 p-2 bg-blue-200">
         <div className="w-full flex flex-row justify-between items-center">
           <div>
             <img

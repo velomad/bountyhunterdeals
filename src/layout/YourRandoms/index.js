@@ -13,7 +13,7 @@ function YourRandom() {
                                 <a class="block relative h-28 rounded overflow-hidden">
                                     <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="/img/Elect-2.webp" />
                                 </a>
-                                <div class="bg-yellow-100 shadow-lg border-yellow-200 border  rounded-md p-2 mt-4">
+                                <div class="bg-blue-100 shadow-lg border-blue-200 border  rounded-md p-2 mt-4">
                                     <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
                                     <h2 class="text-gray-500 title-font text-sm font-bold">Shooting Stars</h2>
                                     <p class="mt-1 text-green-500 text-sm font-bold">$21.15</p>

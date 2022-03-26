@@ -9,7 +9,7 @@ function RandomClearance() {
                     <div class="container w-full px-5 pt-24 mx-auto">
                         <div class="flex flex-col text-center w-full">
                             <h2 class="text-xs mx-auto text-gray-900 tracking-widest font-bold title-font mb-3">ROOF PARTY POLAROID</h2>
-                            <h1 class="sm:text-3xl text-2xl font-bold title-font mb-4"><span className='bg-yellow-400 text-white py-1 px-4 uppercase rounded-md'>Random Clearance Deal</span></h1>
+                            <h1 class="sm:text-3xl text-2xl font-bold title-font mb-4"><span className='bg-blue-400 text-white py-1 px-4 uppercase rounded-md'>Random Clearance Deal</span></h1>
                         </div>
                     </div>
                     <div className='grid grid-cols-12 gap-x-4 py-5 px-16'>
@@ -52,7 +52,7 @@ function RandomClearance() {
                         <div class="container w-full px-5 pt-16 mx-auto">
                             <div class="flex flex-col text-center w-full">
                                 <h2 class="text-xs mx-auto text-gray-900 tracking-widest font-bold title-font mb-3">ROOF PARTY POLAROID</h2>
-                                <h1 class="sm:text-3xl text-2xl font-bold title-font mb-4"><span className='bg-yellow-400 text-white py-1 px-4 uppercase rounded-md'>Deal Only on noon</span></h1>
+                                <h1 class="sm:text-3xl text-2xl font-bold title-font mb-4"><span className='bg-blue-400 text-white  py-1 px-4 uppercase rounded-md'>Deal Only on noon</span></h1>
                             </div>
                         </div>
                         <div className='grid grid-cols-12 gap-x-4 py-5 px-16'>
